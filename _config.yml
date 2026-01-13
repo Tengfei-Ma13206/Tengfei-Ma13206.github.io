@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Tengfei Ma"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Tengfei Ma"
+description              : &description "Tengfei Ma's personal website, focused on AI and Blockchain."
 url                      : "https://tengfeima.com" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 # repository               : "academicpages/academicpages.github.io"
@@ -26,7 +26,7 @@ author:
   avatar           : "portrait.png"
   name             : "Tengfei Ma"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Bachelor in Electronic Information Engineering, The Chinese University of Hong Kong, Shenzhen."
+  bio              : "Bachelor in Electronic Information Engineering, The Chinese University of Hong Kong, Shenzhen. Master of Science in Artificial Intelligence, The Chinese University of Hong Kong."
   location         : "Shenzhen, Guangdong, China"
   # employer         : "Red Brick University"
   uri              : # URL
@@ -53,26 +53,26 @@ author:
   # Social media
   # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : "tengfeima13206"
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
+  # flickr           : # Username
+  # foursquare       : # Username
+  # goodreads        : # Username
+  # google_plus      : # Username
+  # keybase          : # Username
   instagram        : "tengfeima13206"
   lastfm           : # Username
   linkedin         : "tengfeima13206/"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
+  # mastodon         : # URL
+  # medium           : # URL
+  # pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
-  tumblr           : # Username
+  # tumblr           : # Username
   twitter          : "tengfeima13206"
-  vine             : # Username
-  weibo            : "6094938614"
-  wikipedia        : # Username
-  xing             : # Username
+  # vine             : # Username
+  weibo            : "tengfeima13206"
+  # wikipedia        : # Username
+  # xing             : # Username
   youtube          : "tengfeima13206"
   zhihu            : "shu-zhu-zhu-zhu-xue"
 
@@ -215,16 +215,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
