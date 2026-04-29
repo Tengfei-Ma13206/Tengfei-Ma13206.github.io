@@ -70,28 +70,14 @@
     ],
     "education": [
       {
-        "title": "M.S. in Computer Science",
-        "school": "Your University",
-        "location": "City, Country",
-        "period": "2022 - 2024",
-        "description": "Replace this sample with your degree information, thesis direction, advisors, or notable coursework.",
-        "highlights": [
-          "Research focus: add your concentration here",
-          "Awards, scholarships, or honors",
-          "Key student organizations or leadership roles"
-        ]
+        "title": "Master of Science in Artificial Intelligence",
+        "school": "The Chinese University of Hong Kong",
+        "period": "2025 Sep - 2027 Mar"
       },
       {
-        "title": "B.S. in Software Engineering",
-        "school": "Your University",
-        "location": "City, Country",
-        "period": "2018 - 2022",
-        "description": "Use this space to summarize your undergraduate training and the capabilities you built.",
-        "highlights": [
-          "Major GPA / rank if you want to show it",
-          "Exchange program, lab, or capstone project",
-          "Anything resume-worthy that belongs in education"
-        ]
+        "title": "Bachelor of Engineering in Electronic Information Engineering",
+        "school": "The Chinese University of Hong Kong, Shenzhen",
+        "period": "2021 Sep - 2025 Jul"
       }
     ],
     "experience": [
