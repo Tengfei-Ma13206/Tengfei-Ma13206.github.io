@@ -106,29 +106,16 @@
   },
   "products": [
     {
-      "name": "Product Alpha",
-      "tagline": "A concise one-line positioning statement",
+      "name": "Polymarket Oracle",
+      "tagline": "LLM-powered analysis built on top of Polymarket data",
       "status": "Live",
-      "description": "Describe what the product does, who it serves, and why it matters. Keep it clear and outcome-oriented.",
-      "url": "https://example.com",
-      "repo": "https://github.com/your-handle/product-alpha",
-      "highlights": [
-        "Core capability or differentiator",
-        "Meaningful traction, metric, or user value",
-        "Your exact role in building and shipping it"
-      ]
-    },
-    {
-      "name": "Product Beta",
-      "tagline": "Another product, tool, or internal platform",
-      "status": "Beta",
-      "description": "Use this card for a second product, startup project, side project, research system, or portfolio piece.",
-      "url": "https://example.com/product-beta",
+      "description": "Polymarket Oracle uses data from Polymarket to help an LLM analyze your questions and generate clearer, market-informed insights.",
+      "url": "https://polymarket-oracle-6rxe.vercel.app/",
       "repo": "",
       "highlights": [
-        "What problem it solves",
-        "How it is different from alternatives",
-        "Why you are proud of it"
+        "Combines prediction market data with LLM-based reasoning",
+        "Helps users explore questions through market signals and structured analysis",
+        "Built as a public-facing product that can be accessed directly online"
       ]
     }
   ],
