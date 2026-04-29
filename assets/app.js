@@ -144,22 +144,30 @@ function renderTimeline(container, items = [], emptyMessage) {
   }
 
   container.innerHTML = items
-    .map(
-      (item) => `
+    .map((item) => {
+      const isEducation = Boolean(item.school);
+      const title = isEducation
+        ? item.school || "Untitled entry"
+        : item.title || item.degree || item.role || "Untitled entry";
+      const subtitle = isEducation
+        ? [item.title, item.location].filter(Boolean).join(" · ")
+        : [item.organization, item.school, item.company, item.location]
+            .filter(Boolean)
+            .join(" · ");
+
+      return `
         <article class="timeline-item">
           <div class="timeline-top">
             <div>
-              <h3>${escapeHtml(item.title || item.degree || item.role || "Untitled entry")}</h3>
-              <div class="timeline-subtitle">${escapeHtml(
-                [item.organization, item.school, item.company, item.location].filter(Boolean).join(" · ")
-              )}</div>
+              <h3>${escapeHtml(title)}</h3>
+              <div class="timeline-subtitle">${escapeHtml(subtitle)}</div>
             </div>
             ${item.period ? `<span class="meta-chip">${escapeHtml(item.period)}</span>` : ""}
           </div>
           ${renderBodyCopy(item.description, item.highlights)}
         </article>
-      `
-    )
+      `;
+    })
     .join("");
 }
 
