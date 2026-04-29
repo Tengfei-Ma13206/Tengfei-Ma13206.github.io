@@ -13,59 +13,59 @@
     "socialProfiles": [
       {
         "label": "Bilibili",
-        "url": "https://space.bilibili.com/YOUR_ID"
+        "url": "https://space.bilibili.com/287391327"
       },
       {
         "label": "RedNote",
-        "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID"
+        "url": "https://www.xiaohongshu.com/user/profile/60e475d40000000001003b09"
       },
       {
         "label": "WeChat Official Account",
-        "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE"
+        "url": ""
       },
       {
         "label": "WeChat Channels",
-        "url": "https://channels.weixin.qq.com/YOUR_ID"
+        "url": ""
       },
       {
         "label": "Douyin",
-        "url": "https://www.douyin.com/user/YOUR_ID"
-      },
-      {
-        "label": "Zhihu",
-        "url": "https://www.zhihu.com/people/your-handle"
+        "url": ""
       },
       {
         "label": "Weibo",
-        "url": "https://weibo.com/u/YOUR_ID"
+        "url": "https://weibo.com/tengfeima13206"
       },
       {
         "label": "X",
-        "url": "https://x.com/your-handle"
+        "url": "https://x.com/TengfeiMa13206"
       },
       {
         "label": "YouTube",
-        "url": "https://www.youtube.com/@your-handle"
+        "url": "https://www.youtube.com/@tengfeima13206"
       },
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/your-handle"
+        "url": "https://www.instagram.com/tengfeima13206/"
       },
       {
         "label": "TikTok",
-        "url": "https://www.tiktok.com/@your-handle"
+        "url": "https://www.tiktok.com/@tengfeima13206"
       },
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=YOUR_ID"
+        "url": "https://scholar.google.com/citations?user=-mtM0J8AAAAJ"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/tengfeima-ai"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/your-handle"
+        "url": "https://github.com/Tengfei-Ma13206"
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/your-handle"
+        "url": "https://www.linkedin.com/in/tengfeima13206/"
       }
     ],
     "education": [

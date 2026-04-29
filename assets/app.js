@@ -180,13 +180,17 @@ function renderProfileChannels(profile = {}) {
   }
 
   el.profileLinks.innerHTML = links
-    .filter((item) => item.url)
     .map(
-      (item) => `
+      (item) =>
+        item.url
+          ? `
         <a class="profile-link-chip" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer">
           <span class="profile-link-label">${escapeHtml(item.label || "Link")}</span>
           <span aria-hidden="true">↗</span>
         </a>
+      `
+          : `
+        <span class="profile-link-text">${escapeHtml(item.label || "Link")}</span>
       `
     )
     .join("");

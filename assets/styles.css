@@ -447,6 +447,12 @@ h1 {
   text-underline-offset: 3px;
 }
 
+.profile-link-text {
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
 .product-card h3,
 .publication-card h3 {
   display: block;
