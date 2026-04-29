@@ -404,6 +404,10 @@ h1 {
   margin-top: 20px;
 }
 
+.profile-section-intro {
+  margin-bottom: 18px;
+}
+
 .social-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

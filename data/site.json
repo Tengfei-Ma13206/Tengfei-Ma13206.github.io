@@ -15,11 +15,92 @@
     "email": "you@example.com",
     "availability": "Available for selected opportunities",
     "primaryContactUrl": "mailto:you@example.com",
+    "channelsIntro": "These are the platforms I actively use across China and global communities for writing, videos, short updates, and academic visibility.",
     "highlights": [
       "Cross-disciplinary background across research, product, and engineering",
       "Interested in AI-native products, data systems, and applied technology",
       "Comfortable operating in both Chinese and international contexts",
       "Focused on thoughtful execution and durable product quality"
+    ],
+    "socialProfiles": [
+      {
+        "label": "Bilibili",
+        "url": "https://space.bilibili.com/YOUR_ID",
+        "category": "China",
+        "note": "Videos, talks, demos, and longer-form public content"
+      },
+      {
+        "label": "Xiaohongshu",
+        "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID",
+        "category": "China",
+        "note": "Short visual posts, product notes, and personal brand content"
+      },
+      {
+        "label": "WeChat Official Account",
+        "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE",
+        "category": "China",
+        "note": "Long-form writing, essays, and official updates"
+      },
+      {
+        "label": "Douyin",
+        "url": "https://www.douyin.com/user/YOUR_ID",
+        "category": "China",
+        "note": "Short-form video and public-facing content"
+      },
+      {
+        "label": "Zhihu",
+        "url": "https://www.zhihu.com/people/your-handle",
+        "category": "China",
+        "note": "Long-form answers, commentary, and professional thought pieces"
+      },
+      {
+        "label": "Weibo",
+        "url": "https://weibo.com/u/YOUR_ID",
+        "category": "China",
+        "note": "Short updates, announcements, and public interactions"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/your-handle",
+        "category": "Global",
+        "note": "Short-form thoughts, links, and public discussion"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@your-handle",
+        "category": "Global",
+        "note": "Talks, demos, lectures, and recorded appearances"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/your-handle",
+        "category": "Global",
+        "note": "Visual storytelling, behind-the-scenes moments, and public identity"
+      },
+      {
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@your-handle",
+        "category": "Global",
+        "note": "Short-form global video content"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=YOUR_ID",
+        "category": "Academic",
+        "note": "Citation profile and publication record"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/your-handle",
+        "category": "Professional",
+        "note": "Code, open-source work, and technical projects"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/your-handle",
+        "category": "Professional",
+        "note": "Professional background and career network"
+      }
     ],
     "education": [
       {
@@ -74,116 +155,6 @@
       }
     ]
   },
-  "socialLinks": [
-    {
-      "label": "GitHub",
-      "url": "https://github.com/your-handle",
-      "category": "Global",
-      "note": "Code, open-source projects, and experiments"
-    },
-    {
-      "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/your-handle",
-      "category": "Global",
-      "note": "Professional background and network"
-    },
-    {
-      "label": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=YOUR_ID",
-      "category": "Academic",
-      "note": "Citation profile and publication record"
-    },
-    {
-      "label": "ORCID",
-      "url": "https://orcid.org/0000-0000-0000-0000",
-      "category": "Academic",
-      "note": "Persistent researcher identity"
-    },
-    {
-      "label": "ResearchGate",
-      "url": "https://www.researchgate.net/profile/Your-Name",
-      "category": "Academic",
-      "note": "Research updates and project visibility"
-    },
-    {
-      "label": "Semantic Scholar",
-      "url": "https://www.semanticscholar.org/author/Your-Name/YOUR_ID",
-      "category": "Academic",
-      "note": "Academic graph profile"
-    },
-    {
-      "label": "DBLP",
-      "url": "https://dblp.org/pid/xx/xxxx.html",
-      "category": "Academic",
-      "note": "Computer science bibliography"
-    },
-    {
-      "label": "X / Twitter",
-      "url": "https://x.com/your-handle",
-      "category": "Global",
-      "note": "Short-form thoughts and updates"
-    },
-    {
-      "label": "Medium",
-      "url": "https://medium.com/@your-handle",
-      "category": "Global",
-      "note": "Writing and essays"
-    },
-    {
-      "label": "Substack",
-      "url": "https://your-handle.substack.com",
-      "category": "Global",
-      "note": "Newsletter and longer-form ideas"
-    },
-    {
-      "label": "Product Hunt",
-      "url": "https://www.producthunt.com/@your-handle",
-      "category": "Global",
-      "note": "Product launches and maker profile"
-    },
-    {
-      "label": "Hugging Face",
-      "url": "https://huggingface.co/your-handle",
-      "category": "Global",
-      "note": "Models, demos, and datasets"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://www.youtube.com/@your-handle",
-      "category": "Global",
-      "note": "Talks, demos, and recordings"
-    },
-    {
-      "label": "Zhihu",
-      "url": "https://www.zhihu.com/people/your-handle",
-      "category": "China",
-      "note": "Long-form answers and professional commentary"
-    },
-    {
-      "label": "Bilibili",
-      "url": "https://space.bilibili.com/YOUR_ID",
-      "category": "China",
-      "note": "Videos, talks, and community content"
-    },
-    {
-      "label": "Xiaohongshu",
-      "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID",
-      "category": "China",
-      "note": "Lifestyle, product, or research snippets"
-    },
-    {
-      "label": "Jike",
-      "url": "https://okjk.co/YOUR_HANDLE",
-      "category": "China",
-      "note": "Short posts and tech observations"
-    },
-    {
-      "label": "WeChat Official Account",
-      "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE",
-      "category": "China",
-      "note": "Official writing and updates"
-    }
-  ],
   "products": [
     {
       "name": "Product Alpha",

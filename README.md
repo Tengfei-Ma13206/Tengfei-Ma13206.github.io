@@ -5,8 +5,9 @@ A GitHub Pages-ready personal site for `tengfei-ma13206.github.io`.
 ## How to customize
 
 1. Edit `data/site.json`.
-2. Replace the sample text, links, publications, and product entries with your real content.
+2. Replace the sample text, profile channels, publications, and product entries with your real content.
 3. If you want a portrait, add an image URL to `site.avatar`.
+4. If you want a guided writing prompt first, open `preparation_list.md` and fill things out in natural language before editing the JSON.
 
 ## GitHub Pages deployment
 
@@ -19,4 +20,5 @@ A GitHub Pages-ready personal site for `tengfei-ma13206.github.io`.
 ## Notes
 
 - The site is fully static: `index.html`, `assets/styles.css`, `assets/app.js`, and `data/site.json`.
+- Social accounts are part of the personal profile section and are stored under `profile.socialProfiles`.
 - Publications are read from JSON for reliability on GitHub Pages. Direct browser-side scraping from Google Scholar is not dependable because of CORS and the lack of an official client-side API.
