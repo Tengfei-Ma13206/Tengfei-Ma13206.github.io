@@ -146,11 +146,16 @@ function renderTimeline(container, items = [], emptyMessage) {
   container.innerHTML = items
     .map((item) => {
       const isEducation = Boolean(item.school);
+      const isExperience = Boolean(item.company);
       const title = isEducation
         ? item.school || "Untitled entry"
-        : item.title || item.degree || item.role || "Untitled entry";
+        : isExperience
+          ? item.company || "Untitled entry"
+          : item.title || item.degree || item.role || "Untitled entry";
       const subtitle = isEducation
         ? [item.title, item.location].filter(Boolean).join(" · ")
+        : isExperience
+          ? [item.title, item.location].filter(Boolean).join(" · ")
         : [item.organization, item.school, item.company, item.location]
             .filter(Boolean)
             .join(" · ");
