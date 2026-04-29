@@ -10,10 +10,10 @@ const el = {
   heroActions: document.querySelector("#hero-actions"),
   heroAvatar: document.querySelector("#hero-avatar"),
   heroHighlights: document.querySelector("#hero-highlights"),
+  profileLinks: document.querySelector("#profile-links"),
   educationList: document.querySelector("#education-list"),
   experienceList: document.querySelector("#experience-list"),
   profilesIntro: document.querySelector("#profiles-intro"),
-  socialLinks: document.querySelector("#social-links"),
   productsGrid: document.querySelector("#products-grid"),
   publicationsIntro: document.querySelector("#publications-intro"),
   scholarBanner: document.querySelector("#scholar-banner"),
@@ -62,7 +62,6 @@ function renderSite(config) {
     profile.experience,
     "Add your work experience in data/site.json."
   );
-  renderProfileChannels(profile);
   renderProducts(products);
   renderPublications(publications);
 }
@@ -108,6 +107,7 @@ function renderHero(site, profile, publications) {
 
   renderAvatar(site);
   renderHighlights(profile.highlights);
+  renderProfileChannels(profile);
 }
 
 function renderAvatar(site) {
@@ -173,21 +173,17 @@ function renderProfileChannels(profile = {}) {
     "Use this space for the platforms where I actually publish, share ideas, and maintain a public presence.";
 
   if (!Array.isArray(links) || !links.length) {
-    el.socialLinks.innerHTML = `<div class="empty-state">Add social links in data/site.json.</div>`;
+    el.profileLinks.innerHTML = `<div class="empty-state">Add social links in data/site.json.</div>`;
     return;
   }
 
-  el.socialLinks.innerHTML = links
+  el.profileLinks.innerHTML = links
     .filter((item) => item.url)
     .map(
       (item) => `
-        <a class="social-link" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer">
-          <strong>${escapeHtml(item.label || "Link")}</strong>
-          <p class="micro-copy">${escapeHtml(item.note || item.url)}</p>
-          <div class="social-meta">
-            <span>${escapeHtml(item.category || "Channel")}</span>
-            <span aria-hidden="true">↗</span>
-          </div>
+        <a class="profile-link-chip" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer">
+          <span>${escapeHtml(item.label || "Link")}</span>
+          <span aria-hidden="true">↗</span>
         </a>
       `
     )
