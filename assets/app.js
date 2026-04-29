@@ -51,7 +51,7 @@ function renderSite(config) {
   el.footerNote.textContent = site.footerNote || "";
   el.footerNote.parentElement.hidden = !site.footerNote;
 
-  renderHero(site, profile, publications);
+  renderHero(site, profile);
   renderTimeline(
     el.educationList,
     profile.education,
@@ -66,23 +66,18 @@ function renderSite(config) {
   renderPublications(publications);
 }
 
-function renderHero(site, profile, publications) {
+function renderHero(site, profile) {
   const primaryFacts = [
     profile.location,
     profile.base,
     profile.email,
+    profile.ens ? `ENS: ${profile.ens}` : null,
     profile.availability,
   ].filter(Boolean);
 
   const heroLinks = [
     site.resumeUrl
       ? { label: "Resume", url: site.resumeUrl, variant: "primary" }
-      : null,
-    publications.scholarProfileUrl
-      ? { label: "Google Scholar", url: publications.scholarProfileUrl, variant: "secondary" }
-      : null,
-    profile.primaryContactUrl
-      ? { label: "Primary Contact", url: profile.primaryContactUrl, variant: "secondary" }
       : null,
   ].filter(Boolean);
 
