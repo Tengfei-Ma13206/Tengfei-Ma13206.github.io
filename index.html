@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tengfei Ma</title>
+    <meta
+      name="description"
+      content="A refined personal website for Tengfei Ma featuring profile, products, and publications."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">TM</span>
+          <span class="brand-text">
+            <strong id="brand-name">Tengfei Ma</strong>
+            <span id="brand-domain">tengfei-ma13206.github.io</span>
+          </span>
+        </a>
+
+        <nav class="top-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#publications">Publications</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section id="about" class="hero-section section-card">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Personal profile</p>
+              <h1 id="hero-name">Loading...</h1>
+              <p id="hero-role" class="hero-role"></p>
+              <p id="hero-summary" class="hero-summary"></p>
+
+              <div id="hero-facts" class="fact-row"></div>
+              <div id="hero-actions" class="action-row"></div>
+            </div>
+
+            <aside class="hero-aside">
+              <div id="hero-avatar" class="avatar-card">
+                <div class="avatar-fallback">TM</div>
+              </div>
+              <div id="hero-highlights" class="mini-panel"></div>
+            </aside>
+          </div>
+
+          <div class="detail-grid">
+            <article class="content-panel">
+              <div class="panel-heading">
+                <p class="eyebrow">Resume overview</p>
+                <h2>Education</h2>
+              </div>
+              <div id="education-list" class="timeline-list"></div>
+            </article>
+
+            <article class="content-panel">
+              <div class="panel-heading">
+                <p class="eyebrow">Career journey</p>
+                <h2>Experience</h2>
+              </div>
+              <div id="experience-list" class="timeline-list"></div>
+            </article>
+          </div>
+
+          <article class="content-panel social-panel">
+            <div class="panel-heading">
+              <p class="eyebrow">Global presence</p>
+              <h2>Social links</h2>
+            </div>
+            <div id="social-links" class="social-grid"></div>
+          </article>
+        </section>
+
+        <section id="products" class="section-card">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Selected work</p>
+              <h2>Products</h2>
+            </div>
+            <p class="section-intro">
+              Product stories, positioning, and direct links to the things I have
+              built.
+            </p>
+          </div>
+          <div id="products-grid" class="card-grid"></div>
+        </section>
+
+        <section id="publications" class="section-card">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Research footprint</p>
+              <h2>Academic outcomes</h2>
+            </div>
+            <p id="publications-intro" class="section-intro"></p>
+          </div>
+
+          <div id="scholar-banner" class="scholar-banner"></div>
+          <div id="publications-list" class="publication-list"></div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <span id="footer-note">Hosted on GitHub Pages.</span>
+      </footer>
+    </div>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

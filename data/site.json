@@ -1,0 +1,246 @@
+{
+  "site": {
+    "name": "Tengfei Ma",
+    "domain": "tengfei-ma13206.github.io",
+    "title": "Tengfei Ma | Personal Website",
+    "role": "Researcher, Builder, and Product-Minded Technologist",
+    "resumeUrl": "https://example.com/resume.pdf",
+    "avatar": "",
+    "footerNote": "Hosted on GitHub Pages. Edit data/site.json to customize every section."
+  },
+  "profile": {
+    "summary": "I build products at the intersection of technology, research, and execution. My work spans academic exploration, product strategy, and hands-on delivery, with a focus on turning ideas into useful systems and clear user value.",
+    "location": "Shanghai, China",
+    "base": "Open to global collaboration",
+    "email": "you@example.com",
+    "availability": "Available for selected opportunities",
+    "primaryContactUrl": "mailto:you@example.com",
+    "highlights": [
+      "Cross-disciplinary background across research, product, and engineering",
+      "Interested in AI-native products, data systems, and applied technology",
+      "Comfortable operating in both Chinese and international contexts",
+      "Focused on thoughtful execution and durable product quality"
+    ],
+    "education": [
+      {
+        "title": "M.S. in Computer Science",
+        "school": "Your University",
+        "location": "City, Country",
+        "period": "2022 - 2024",
+        "description": "Replace this sample with your degree information, thesis direction, advisors, or notable coursework.",
+        "highlights": [
+          "Research focus: add your concentration here",
+          "Awards, scholarships, or honors",
+          "Key student organizations or leadership roles"
+        ]
+      },
+      {
+        "title": "B.S. in Software Engineering",
+        "school": "Your University",
+        "location": "City, Country",
+        "period": "2018 - 2022",
+        "description": "Use this space to summarize your undergraduate training and the capabilities you built.",
+        "highlights": [
+          "Major GPA / rank if you want to show it",
+          "Exchange program, lab, or capstone project",
+          "Anything resume-worthy that belongs in education"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Product Lead",
+        "company": "Your Company",
+        "location": "Shanghai, China",
+        "period": "2024 - Present",
+        "description": "Describe your scope, what you own, and the outcomes that matter.",
+        "highlights": [
+          "Led strategy and execution for a product line",
+          "Worked across design, engineering, and business stakeholders",
+          "Shipped measurable improvements in growth, retention, or efficiency"
+        ]
+      },
+      {
+        "title": "Research Intern",
+        "company": "Your Lab or Company",
+        "location": "Remote / On-site",
+        "period": "2023",
+        "description": "Describe what you researched, implemented, or published.",
+        "highlights": [
+          "Built experimental systems or prototypes",
+          "Contributed to papers, reports, or benchmarks",
+          "Collaborated with academic or industry researchers"
+        ]
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/your-handle",
+      "category": "Global",
+      "note": "Code, open-source projects, and experiments"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/your-handle",
+      "category": "Global",
+      "note": "Professional background and network"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=YOUR_ID",
+      "category": "Academic",
+      "note": "Citation profile and publication record"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0000-0000-0000",
+      "category": "Academic",
+      "note": "Persistent researcher identity"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Your-Name",
+      "category": "Academic",
+      "note": "Research updates and project visibility"
+    },
+    {
+      "label": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/author/Your-Name/YOUR_ID",
+      "category": "Academic",
+      "note": "Academic graph profile"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/xx/xxxx.html",
+      "category": "Academic",
+      "note": "Computer science bibliography"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/your-handle",
+      "category": "Global",
+      "note": "Short-form thoughts and updates"
+    },
+    {
+      "label": "Medium",
+      "url": "https://medium.com/@your-handle",
+      "category": "Global",
+      "note": "Writing and essays"
+    },
+    {
+      "label": "Substack",
+      "url": "https://your-handle.substack.com",
+      "category": "Global",
+      "note": "Newsletter and longer-form ideas"
+    },
+    {
+      "label": "Product Hunt",
+      "url": "https://www.producthunt.com/@your-handle",
+      "category": "Global",
+      "note": "Product launches and maker profile"
+    },
+    {
+      "label": "Hugging Face",
+      "url": "https://huggingface.co/your-handle",
+      "category": "Global",
+      "note": "Models, demos, and datasets"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@your-handle",
+      "category": "Global",
+      "note": "Talks, demos, and recordings"
+    },
+    {
+      "label": "Zhihu",
+      "url": "https://www.zhihu.com/people/your-handle",
+      "category": "China",
+      "note": "Long-form answers and professional commentary"
+    },
+    {
+      "label": "Bilibili",
+      "url": "https://space.bilibili.com/YOUR_ID",
+      "category": "China",
+      "note": "Videos, talks, and community content"
+    },
+    {
+      "label": "Xiaohongshu",
+      "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID",
+      "category": "China",
+      "note": "Lifestyle, product, or research snippets"
+    },
+    {
+      "label": "Jike",
+      "url": "https://okjk.co/YOUR_HANDLE",
+      "category": "China",
+      "note": "Short posts and tech observations"
+    },
+    {
+      "label": "WeChat Official Account",
+      "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE",
+      "category": "China",
+      "note": "Official writing and updates"
+    }
+  ],
+  "products": [
+    {
+      "name": "Product Alpha",
+      "tagline": "A concise one-line positioning statement",
+      "status": "Live",
+      "description": "Describe what the product does, who it serves, and why it matters. Keep it clear and outcome-oriented.",
+      "url": "https://example.com",
+      "repo": "https://github.com/your-handle/product-alpha",
+      "highlights": [
+        "Core capability or differentiator",
+        "Meaningful traction, metric, or user value",
+        "Your exact role in building and shipping it"
+      ]
+    },
+    {
+      "name": "Product Beta",
+      "tagline": "Another product, tool, or internal platform",
+      "status": "Beta",
+      "description": "Use this card for a second product, startup project, side project, research system, or portfolio piece.",
+      "url": "https://example.com/product-beta",
+      "repo": "",
+      "highlights": [
+        "What problem it solves",
+        "How it is different from alternatives",
+        "Why you are proud of it"
+      ]
+    }
+  ],
+  "publications": {
+    "intro": "Publication entries are stored in JSON for now so the site stays stable on GitHub Pages, while the schema remains ready for future Google Scholar automation.",
+    "scholarProfileUrl": "https://scholar.google.com/citations?user=YOUR_ID",
+    "sourceNote": "Use this section for papers, preprints, patents, or academic outputs. The structure matches what you would usually showcase from a Google Scholar profile.",
+    "items": [
+      {
+        "title": "Example Paper Title",
+        "authors": "Tengfei Ma, Coauthor A, Coauthor B",
+        "venue": "Conference or Journal Name",
+        "year": 2025,
+        "type": "Paper",
+        "citations": 12,
+        "abstract": "A short abstract or contribution summary helps the page feel richer than a plain citation list.",
+        "url": "https://doi.org/10.0000/example",
+        "pdfUrl": "https://example.com/example-paper.pdf",
+        "codeUrl": "https://github.com/your-handle/example-paper-code"
+      },
+      {
+        "title": "Example Patent or Technical Report",
+        "authors": "Tengfei Ma, Coauthor C",
+        "venue": "Institution or Filing Body",
+        "year": 2024,
+        "type": "Patent",
+        "citations": 0,
+        "abstract": "You can also list patents, technical reports, or notable whitepapers in the same format.",
+        "url": "https://example.com/patent",
+        "pdfUrl": "",
+        "codeUrl": ""
+      }
+    ]
+  }
+}
