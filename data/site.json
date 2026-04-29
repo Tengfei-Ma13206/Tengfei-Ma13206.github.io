@@ -120,33 +120,36 @@
     }
   ],
   "publications": {
-    "intro": "Publication entries are stored in JSON for now so the site stays stable on GitHub Pages, while the schema remains ready for future Google Scholar automation.",
-    "scholarProfileUrl": "https://scholar.google.com/citations?user=YOUR_ID",
-    "sourceNote": "Use this section for papers, preprints, patents, or academic outputs. The structure matches what you would usually showcase from a Google Scholar profile.",
+    "intro": "A concise selection of publications and research outputs from my Google Scholar profile.",
+    "scholarProfileUrl": "https://scholar.google.com/citations?user=-mtM0J8AAAAJ",
+    "sourceNote": "This section is populated from my public Google Scholar profile and kept intentionally concise.",
     "items": [
       {
-        "title": "Example Paper Title",
-        "authors": "Tengfei Ma, Coauthor A, Coauthor B",
-        "venue": "Conference or Journal Name",
-        "year": 2025,
+        "title": "Beyond Centralized AI: Blockchain-Enabled Decentralized Learning",
+        "authors": "D Wang, T Ma, J Zhu, H Duan",
+        "venue": "Future Internet 18 (2), 98",
+        "year": 2026,
         "type": "Paper",
-        "citations": 12,
-        "abstract": "A short abstract or contribution summary helps the page feel richer than a plain citation list.",
-        "url": "https://doi.org/10.0000/example",
-        "pdfUrl": "https://example.com/example-paper.pdf",
-        "codeUrl": "https://github.com/your-handle/example-paper-code"
+        "abstract": "A concise overview of how blockchain can support decentralized learning systems beyond the standard centralized AI pipeline.",
+        "url": "https://scholar.google.com/scholar?q=Beyond+Centralized+AI%3A+Blockchain-Enabled+Decentralized+Learning"
       },
       {
-        "title": "Example Patent or Technical Report",
-        "authors": "Tengfei Ma, Coauthor C",
-        "venue": "Institution or Filing Body",
+        "title": "Derelayl: Sustainable decentralized relay learning",
+        "authors": "H Duan, T Ma, Y Qin, R Zeng, W Cai, VCM Leung, X Hu",
+        "venue": "IEEE Transactions on Mobile Computing",
+        "year": 2025,
+        "type": "Paper",
+        "abstract": "This work studies a sustainable decentralized relay learning framework for more efficient and robust distributed intelligence.",
+        "url": "https://scholar.google.com/scholar?q=Derelayl%3A+Sustainable+decentralized+relay+learning"
+      },
+      {
+        "title": "Artemix: A community-boosting-based framework for airdrop hunter detection in the web3 community",
+        "authors": "Y Qin, T Ma, H Chen, H Duan",
+        "venue": "Blockchain 2 (2), 1-24",
         "year": 2024,
-        "type": "Patent",
-        "citations": 0,
-        "abstract": "You can also list patents, technical reports, or notable whitepapers in the same format.",
-        "url": "https://example.com/patent",
-        "pdfUrl": "",
-        "codeUrl": ""
+        "type": "Paper",
+        "abstract": "A framework for detecting airdrop hunters in Web3 communities by modeling community behavior and incentive-driven participation patterns.",
+        "url": "https://scholar.google.com/scholar?q=Artemix%3A+A+community-boosting-based+framework+for+airdrop+hunter+detection+in+the+web3+community"
       }
     ]
   }
