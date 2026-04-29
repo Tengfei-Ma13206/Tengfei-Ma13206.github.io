@@ -48,8 +48,8 @@ function renderSite(config) {
   document.title = site.title || site.name || "Personal Website";
   el.brandName.textContent = site.name || "Your Name";
   el.brandDomain.textContent = site.domain || window.location.hostname;
-  el.footerNote.textContent =
-    site.footerNote || "Hosted on GitHub Pages. Content is powered by JSON.";
+  el.footerNote.textContent = site.footerNote || "";
+  el.footerNote.parentElement.hidden = !site.footerNote;
 
   renderHero(site, profile, publications);
   renderTimeline(
@@ -88,13 +88,15 @@ function renderHero(site, profile, publications) {
 
   el.heroName.textContent = site.name || "Your Name";
   el.heroRole.textContent = site.role || "";
+  el.heroRole.hidden = !site.role;
   el.heroSummary.textContent =
     profile.summary ||
     "Add a concise profile summary in data/site.json to introduce your background and current focus.";
 
   el.heroFacts.innerHTML = primaryFacts.length
     ? primaryFacts.map((item) => `<span class="fact-pill">${escapeHtml(item)}</span>`).join("")
-    : `<div class="empty-state">Add location, email, or availability details to surface quick facts here.</div>`;
+    : "";
+  el.heroFacts.hidden = !primaryFacts.length;
 
   el.heroActions.innerHTML = heroLinks.length
     ? heroLinks
@@ -104,6 +106,7 @@ function renderHero(site, profile, publications) {
         )
         .join("")
     : "";
+  el.heroActions.hidden = !heroLinks.length;
 
   renderAvatar(site);
   renderHighlights(profile.highlights);
@@ -125,13 +128,12 @@ function renderAvatar(site) {
 
 function renderHighlights(highlights = []) {
   if (!Array.isArray(highlights) || !highlights.length) {
-    el.heroHighlights.innerHTML = `
-      <h3>At a glance</h3>
-      <p class="mini-list">Add three to five short highlights in data/site.json, such as research interests, market focus, or current priorities.</p>
-    `;
+    el.heroHighlights.hidden = true;
+    el.heroHighlights.innerHTML = "";
     return;
   }
 
+  el.heroHighlights.hidden = false;
   el.heroHighlights.innerHTML = `
     <h3>At a glance</h3>
     <div class="mini-list">

@@ -3,25 +3,13 @@
     "name": "Tengfei Ma",
     "domain": "tengfei-ma13206.github.io",
     "title": "Tengfei Ma | Personal Website",
-    "role": "Researcher, Builder, and Product-Minded Technologist",
-    "resumeUrl": "https://example.com/resume.pdf",
-    "avatar": "",
-    "footerNote": "Hosted on GitHub Pages. Edit data/site.json to customize every section."
+    "avatar": "assets/portrait.jpeg"
   },
   "profile": {
     "summary": "I build products at the intersection of technology, research, and execution. My work spans academic exploration, product strategy, and hands-on delivery, with a focus on turning ideas into useful systems and clear user value.",
-    "location": "Shanghai, China",
-    "base": "Open to global collaboration",
     "email": "you@example.com",
-    "availability": "Available for selected opportunities",
     "primaryContactUrl": "mailto:you@example.com",
     "channelsIntro": "These are the platforms I actively use across China and global communities for writing, videos, short updates, and academic visibility.",
-    "highlights": [
-      "Cross-disciplinary background across research, product, and engineering",
-      "Interested in AI-native products, data systems, and applied technology",
-      "Comfortable operating in both Chinese and international contexts",
-      "Focused on thoughtful execution and durable product quality"
-    ],
     "socialProfiles": [
       {
         "label": "Bilibili",
