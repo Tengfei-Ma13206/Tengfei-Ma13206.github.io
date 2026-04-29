@@ -82,28 +82,25 @@
     ],
     "experience": [
       {
-        "title": "Product Lead",
-        "company": "Your Company",
+        "title": "Machine Learning Engineer Intern",
+        "company": "SenseTime",
         "location": "Shanghai, China",
-        "period": "2024 - Present",
-        "description": "Describe your scope, what you own, and the outcomes that matter.",
-        "highlights": [
-          "Led strategy and execution for a product line",
-          "Worked across design, engineering, and business stakeholders",
-          "Shipped measurable improvements in growth, retention, or efficiency"
-        ]
+        "period": "2025 Dec - 2026 Apr",
+        "description": "Exploring embodied intelligence, with a focus on VLA and world models."
       },
       {
-        "title": "Research Intern",
-        "company": "Your Lab or Company",
-        "location": "Remote / On-site",
-        "period": "2023",
-        "description": "Describe what you researched, implemented, or published.",
-        "highlights": [
-          "Built experimental systems or prototypes",
-          "Contributed to papers, reports, or benchmarks",
-          "Collaborated with academic or industry researchers"
-        ]
+        "title": "AI Solution Architect Intern",
+        "company": "MiniMax",
+        "location": "Beijing, China",
+        "period": "2025 Jun - 2025 Aug",
+        "description": "Delivered AI solutions for external enterprises using MiniMax TTS, LLMs, and Hailuo, the video generation model."
+      },
+      {
+        "title": "Data Science Intern",
+        "company": "Lalamove",
+        "location": "Shenzhen, Guangdong, China",
+        "period": "2024 Dec - 2025 May",
+        "description": "Worked on data analysis for AI outbound calling and driver price adjustment strategies."
       }
     ]
   },
