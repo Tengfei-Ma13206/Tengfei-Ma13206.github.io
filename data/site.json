@@ -6,88 +6,66 @@
     "avatar": "assets/portrait.jpeg"
   },
   "profile": {
-    "summary": "I build products at the intersection of technology, research, and execution. My work spans academic exploration, product strategy, and hands-on delivery, with a focus on turning ideas into useful systems and clear user value.",
+    "summary": "My current work focuses on embodied intelligence and world models. I share my thoughts on Bilibili every day, and I am also deeply interested in blockchain, cryptography, and quantum computing, topics I regularly discuss through video content as well. If you are working in related areas, I would be very happy to connect over a coffee chat.",
     "email": "backkom2021@qq.com",
     "primaryContactUrl": "mailto:backkom2021@qq.com",
-    "channelsIntro": "These are the platforms I actively use across China and global communities for writing, videos, short updates, and academic visibility.",
+    "platformAliasNote": "On Bilibili, RedNote, Douyin, WeChat Official Account, and WeChat Channels, I publish under the name \"马腾飞每天更新\" (Ma Tengfei Daily Updates).",
     "socialProfiles": [
       {
         "label": "Bilibili",
-        "url": "https://space.bilibili.com/YOUR_ID",
-        "category": "China",
-        "note": "Videos, talks, demos, and longer-form public content"
+        "url": "https://space.bilibili.com/YOUR_ID"
       },
       {
-        "label": "Xiaohongshu",
-        "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID",
-        "category": "China",
-        "note": "Short visual posts, product notes, and personal brand content"
+        "label": "RedNote",
+        "url": "https://www.xiaohongshu.com/user/profile/YOUR_ID"
       },
       {
         "label": "WeChat Official Account",
-        "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE",
-        "category": "China",
-        "note": "Long-form writing, essays, and official updates"
+        "url": "https://mp.weixin.qq.com/s/YOUR_ARTICLE_OR_PROFILE"
+      },
+      {
+        "label": "WeChat Channels",
+        "url": "https://channels.weixin.qq.com/YOUR_ID"
       },
       {
         "label": "Douyin",
-        "url": "https://www.douyin.com/user/YOUR_ID",
-        "category": "China",
-        "note": "Short-form video and public-facing content"
+        "url": "https://www.douyin.com/user/YOUR_ID"
       },
       {
         "label": "Zhihu",
-        "url": "https://www.zhihu.com/people/your-handle",
-        "category": "China",
-        "note": "Long-form answers, commentary, and professional thought pieces"
+        "url": "https://www.zhihu.com/people/your-handle"
       },
       {
         "label": "Weibo",
-        "url": "https://weibo.com/u/YOUR_ID",
-        "category": "China",
-        "note": "Short updates, announcements, and public interactions"
+        "url": "https://weibo.com/u/YOUR_ID"
       },
       {
         "label": "X",
-        "url": "https://x.com/your-handle",
-        "category": "Global",
-        "note": "Short-form thoughts, links, and public discussion"
+        "url": "https://x.com/your-handle"
       },
       {
         "label": "YouTube",
-        "url": "https://www.youtube.com/@your-handle",
-        "category": "Global",
-        "note": "Talks, demos, lectures, and recorded appearances"
+        "url": "https://www.youtube.com/@your-handle"
       },
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/your-handle",
-        "category": "Global",
-        "note": "Visual storytelling, behind-the-scenes moments, and public identity"
+        "url": "https://www.instagram.com/your-handle"
       },
       {
         "label": "TikTok",
-        "url": "https://www.tiktok.com/@your-handle",
-        "category": "Global",
-        "note": "Short-form global video content"
+        "url": "https://www.tiktok.com/@your-handle"
       },
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=YOUR_ID",
-        "category": "Academic",
-        "note": "Citation profile and publication record"
+        "url": "https://scholar.google.com/citations?user=YOUR_ID"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/your-handle",
-        "category": "Professional",
-        "note": "Code, open-source work, and technical projects"
+        "url": "https://github.com/your-handle"
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/your-handle",
-        "category": "Professional",
-        "note": "Professional background and career network"
+        "url": "https://www.linkedin.com/in/your-handle"
       }
     ],
     "education": [

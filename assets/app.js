@@ -170,9 +170,9 @@ function renderTimeline(container, items = [], emptyMessage) {
 
 function renderProfileChannels(profile = {}) {
   const links = Array.isArray(profile.socialProfiles) ? profile.socialProfiles : [];
-  el.profilesIntro.textContent =
-    profile.channelsIntro ||
-    "Use this space for the platforms where I actually publish, share ideas, and maintain a public presence.";
+  const intro = profile.platformAliasNote || "";
+  el.profilesIntro.textContent = intro;
+  el.profilesIntro.hidden = !intro;
 
   if (!Array.isArray(links) || !links.length) {
     el.profileLinks.innerHTML = `<div class="empty-state">Add social links in data/site.json.</div>`;
@@ -184,7 +184,7 @@ function renderProfileChannels(profile = {}) {
     .map(
       (item) => `
         <a class="profile-link-chip" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer">
-          <span>${escapeHtml(item.label || "Link")}</span>
+          <span class="profile-link-label">${escapeHtml(item.label || "Link")}</span>
           <span aria-hidden="true">↗</span>
         </a>
       `

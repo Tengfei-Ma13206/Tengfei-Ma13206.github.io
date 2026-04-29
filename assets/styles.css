@@ -416,30 +416,35 @@ h1 {
 }
 
 .profile-links {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
 }
 
 .profile-link-chip {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 14px 16px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.76);
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: var(--text);
   font-size: 0.95rem;
   font-weight: 600;
-  transition: transform 160ms ease, border-color 160ms ease,
-    background-color 160ms ease;
+  transition: color 160ms ease, transform 160ms ease;
 }
 
 .profile-link-chip:hover,
 .profile-link-chip:focus-visible {
-  transform: translateY(-2px);
-  border-color: rgba(140, 111, 68, 0.28);
-  background: rgba(255, 255, 255, 0.92);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.profile-link-label {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 
 .product-card h3,
@@ -537,8 +542,7 @@ h1 {
 @media (max-width: 1024px) {
   .hero-grid,
   .detail-grid,
-  .card-grid,
-  .profile-links {
+  .card-grid {
     grid-template-columns: 1fr;
   }
 
