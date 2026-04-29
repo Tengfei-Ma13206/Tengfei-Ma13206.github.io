@@ -165,7 +165,7 @@ main {
 }
 
 .hero-section {
-  padding-top: 38px;
+  padding-top: 26px;
 }
 
 .hero-grid {
@@ -200,10 +200,11 @@ h1 {
   font-size: clamp(2.7rem, 5vw, 4.9rem);
   line-height: 0.96;
   max-width: 10ch;
+  margin-bottom: 14px;
 }
 
 .hero-role {
-  margin: 16px 0 10px;
+  margin: 0 0 10px;
   font-size: 1.18rem;
   font-weight: 600;
   color: var(--text);
