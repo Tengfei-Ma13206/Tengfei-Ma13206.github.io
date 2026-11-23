@@ -136,10 +136,13 @@ h1 { margin-top: 8px; font-size: clamp(3.6rem, 7vw, 6.55rem); font-weight: 570; 
 .contact { background: var(--soft); padding-top: clamp(39px, 5.3vw, 69px); }
 .contact-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 26px; }
 .contact-top p { max-width: 47ch; margin-top: 12px; color: var(--muted); }
-.contact-address { display: flex; flex-direction: column; }
+.contact-address { display: flex; flex-direction: column; gap: 3px; }
 .contact-address a { font-size: clamp(1.25rem, 2.2vw, 1.9rem); font-weight: 520; letter-spacing: -.04em; color: var(--green); }
 .contact-address a:hover, .channel-grid a:hover, .colophon a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .contact-address span { color: var(--muted); font-size: .88rem; }
+.wechat { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 10px; }
+.wechat bdi { color: var(--ink); font-weight: 600; user-select: all; }
+.wechat small { color: var(--muted); font-size: .84rem; }
 .alias { margin-top: 30px; padding-top: 19px; border-top: 1px solid var(--line); color: var(--muted); font-size: .93rem; }
 .channel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; padding: 20px 0 28px; }
 .channel-grid h3 { font-size: .95rem; font-weight: 650; margin-bottom: 6px; }

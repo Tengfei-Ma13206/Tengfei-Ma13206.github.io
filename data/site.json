@@ -10,6 +10,10 @@
     "summary": "I’m an AI master’s student at the Chinese University of Hong Kong. I study how robots anticipate the effects of their own actions.",
     "biography": "My earlier work was in decentralized learning. Today I work on world models at PrimeBot. On Bilibili, I share Chinese-language walkthroughs of the robotics papers and code I’m reading.",
     "email": "backkom2021@qq.com",
+    "wechat": {
+      "id": "tengfeima-com",
+      "requestNote": "加好友时请备注来意。"
+    },
     "ens": "tengfeima.eth",
     "platformAliasNote": "On Bilibili, RedNote, Douyin, WeChat Official Account and WeChat Channels, you can find me as 马腾飞每天更新.",
     "socialProfiles": [
@@ -107,6 +111,7 @@
         "localName": "启元机器人",
         "logo": "assets/logos/primebot.webp",
         "title": "Machine Learning Engineer Intern, World Models",
+        "location": "Shanghai, China",
         "period": "Jun 2026 – present",
         "description": "I studied how to condition robot world models on actions and co-authored PrimeSim.",
         "publication": "primesim"
@@ -116,6 +121,7 @@
         "localName": "鹿明机器人",
         "logo": "assets/logos/lumos.webp",
         "title": "World Model Algorithm Intern",
+        "location": "Shenzhen, China",
         "period": "Apr – Jun 2026",
         "description": "I worked on world models for robot manipulation and co-authored PRIME W0.",
         "publication": "prime-w0"
@@ -239,18 +245,16 @@
   },
   "videos": [
     {
-      "title": "Nano-World-Model",
-      "topic": "Reading the code",
-      "description": "How robot actions enter a Transformer block, with a line-by-line look at additive action conditioning.",
-      "chineseTitle": "代码精读 · 动作如何注入 Transformer",
-      "url": "https://www.bilibili.com/video/BV1Qp7T6HE2T/"
+      "title": "Explorative Modeling · Episode 1",
+      "description": "From diffusion models to explorative models for learning multimodal distributions.",
+      "chineseTitle": "探索式模型，多峰分布训练新范式 · 12:21",
+      "url": "https://www.bilibili.com/video/BV1r3uN6kE1m/"
     },
     {
-      "title": "DiT4DiT",
-      "topic": "Reading the paper",
-      "description": "How video and action models learn together, starting with the intuition behind flow matching.",
-      "chineseTitle": "论文讲解 · 从 Flow Matching 到视频动作模型",
-      "url": "https://www.bilibili.com/video/BV1sZ5g65ES4/"
+      "title": "MuchAdoAboutNoising · Episode 1",
+      "description": "How manifold learning helps explain ActionDiT’s performance in robot control.",
+      "chineseTitle": "流形学习 · ActionDiT 的能力不来自于多峰分布拟合 · 10:38",
+      "url": "https://www.bilibili.com/video/BV1RYb96nE7a/"
     }
   ]
 }

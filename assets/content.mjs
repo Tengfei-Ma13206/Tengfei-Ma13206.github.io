@@ -111,7 +111,10 @@ function renderFooter({ profile, site }) {
     .filter(group => definedGroups.includes(group));
   return `<footer class="contact" id="connect" aria-labelledby="connect-title"><div class="wrap">
     <div class="contact-top"><div><h2 id="connect-title">Get in touch</h2><p>${html(profile.contactNote)}</p></div>
-    <div class="contact-address"><a href="mailto:${html(profile.email)}">${html(profile.email)}</a><span>ENS · ${html(profile.ens)}</span></div></div>
+    <div class="contact-address"><a href="mailto:${html(profile.email)}">${html(profile.email)}</a>
+      ${profile.wechat?.id ? `<div class="wechat"><span>WeChat ID · <bdi>${html(profile.wechat.id)}</bdi></span>
+        ${profile.wechat.requestNote ? `<small lang="zh-Hans">${html(profile.wechat.requestNote)}</small>` : ""}</div>` : ""}
+      <span>ENS · ${html(profile.ens)}</span></div></div>
     <p class="alias">${html(profile.platformAliasNote)}</p><div class="channel-grid">${groupOrder.map(group => `<div><h3>${html(group)}</h3>
       <ul>${channels.filter(p => (p.group || "Other channels") === group).map(p => `<li>${p.url ? link(p.label, p.url) : `<span>${html(p.label)}</span><small lang="zh-Hans">${html(p.handle)}</small>`}</li>`).join("")}</ul></div>`).join("\n")}</div>
     <div class="colophon"><a href="#top">${html(site.domain)}</a><a href="#top">Back to top</a></div>
