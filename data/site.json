@@ -1,156 +1,262 @@
 {
   "site": {
     "name": "Tengfei Ma",
-    "domain": "tengfei-ma13206.github.io",
-    "title": "Tengfei Ma | Personal Website",
-    "avatar": "assets/portrait.jpeg"
+    "domain": "tengfeima.com",
+    "title": "Tengfei Ma · Robotics & World Models",
+    "avatar": "assets/portrait.jpeg",
+    "chineseName": "马腾飞"
   },
   "profile": {
-    "summary": "My current work focuses on embodied intelligence and world models. I share my thoughts on Bilibili every day, and I am also deeply interested in blockchain, cryptography, and quantum computing, topics I regularly discuss through video content as well. If you are working in related areas, I would be very happy to connect over a coffee chat.",
+    "summary": "I study how robots predict the outcome of their actions. I’m an MSc student in Artificial Intelligence at CUHK and a world model intern at PrimeBot.",
     "email": "backkom2021@qq.com",
     "ens": "tengfeima.eth",
-    "platformAliasNote": "On Bilibili, RedNote, Douyin, WeChat Official Account, and WeChat Channels, I publish under the name \"马腾飞每天更新\" (Ma Tengfei Daily Updates).",
+    "platformAliasNote": "On Bilibili, RedNote, Douyin, WeChat Official Account and WeChat Channels, you can find me as 马腾飞每天更新.",
     "socialProfiles": [
       {
         "label": "Bilibili",
-        "url": "https://space.bilibili.com/287391327"
+        "url": "https://space.bilibili.com/287391327",
+        "group": "Chinese platforms"
       },
       {
         "label": "RedNote",
-        "url": "https://www.xiaohongshu.com/user/profile/60e475d40000000001003b09"
+        "url": "https://www.xiaohongshu.com/user/profile/60e475d40000000001003b09",
+        "group": "Chinese platforms"
       },
       {
         "label": "WeChat Official Account",
-        "url": ""
+        "url": "",
+        "group": "Chinese platforms",
+        "handle": "马腾飞每天更新"
       },
       {
         "label": "WeChat Channels",
-        "url": ""
+        "url": "",
+        "group": "Chinese platforms",
+        "handle": "马腾飞每天更新"
       },
       {
         "label": "Douyin",
-        "url": ""
+        "url": "",
+        "group": "Chinese platforms",
+        "handle": "马腾飞每天更新"
       },
       {
         "label": "Weibo",
-        "url": "https://weibo.com/tengfeima13206"
+        "url": "https://weibo.com/tengfeima13206",
+        "group": "Chinese platforms"
       },
       {
         "label": "X",
-        "url": "https://x.com/TengfeiMa13206"
+        "url": "https://x.com/TengfeiMa13206",
+        "group": "Other channels"
       },
       {
         "label": "YouTube",
-        "url": "https://www.youtube.com/@tengfeima13206"
+        "url": "https://www.youtube.com/@tengfeima13206",
+        "group": "Other channels"
       },
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/tengfeima13206/"
+        "url": "https://www.instagram.com/tengfeima13206/",
+        "group": "Other channels"
       },
       {
         "label": "TikTok",
-        "url": "https://www.tiktok.com/@tengfeima13206"
+        "url": "https://www.tiktok.com/@tengfeima13206",
+        "group": "Other channels"
       },
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=-mtM0J8AAAAJ"
+        "url": "https://scholar.google.com/citations?user=-mtM0J8AAAAJ",
+        "group": "Research & work"
       },
       {
         "label": "Hugging Face",
-        "url": "https://huggingface.co/tengfeima-ai"
+        "url": "https://huggingface.co/tengfeima-ai",
+        "group": "Research & work"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/Tengfei-Ma13206"
+        "url": "https://github.com/Tengfei-Ma13206",
+        "group": "Research & work"
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/tengfeima13206/"
+        "url": "https://www.linkedin.com/in/tengfeima13206/",
+        "group": "Research & work"
       }
     ],
     "education": [
       {
         "title": "Master of Science in Artificial Intelligence",
         "school": "The Chinese University of Hong Kong",
-        "period": "2025 Sep - 2027 Mar"
+        "period": "Sep 2025 – Mar 2027 (expected)",
+        "logo": "assets/logos/cuhk.webp"
       },
       {
         "title": "Bachelor of Engineering in Electronic Information Engineering",
         "school": "The Chinese University of Hong Kong, Shenzhen",
-        "period": "2021 Sep - 2025 Jul"
+        "period": "Sep 2021 – Jul 2025",
+        "logo": "assets/logos/cuhk-shenzhen.webp"
       }
     ],
     "experience": [
       {
+        "company": "PrimeBot",
+        "localName": "启元机器人",
+        "logo": "assets/logos/primebot.webp",
+        "title": "Machine Learning Engineer Intern, World Models",
+        "period": "Jun 2026 – present",
+        "description": "Studied how to condition robot world models on actions. Co-authored PrimeSim, a simulator that predicts several camera views of a manipulation task.",
+        "publication": "primesim"
+      },
+      {
+        "company": "Lumos Robotics",
+        "localName": "鹿明机器人",
+        "logo": "assets/logos/lumos.webp",
+        "title": "World Model Algorithm Intern",
+        "period": "Apr – Jun 2026",
+        "description": "Worked on world models for robot manipulation. Co-authored PRIME W0, which uses predicted visual subgoals to guide a robot policy.",
+        "publication": "prime-w0"
+      },
+      {
         "title": "Machine Learning Engineer Intern",
         "company": "SenseTime",
         "location": "Shanghai, China",
-        "period": "2025 Dec - 2026 Apr",
-        "description": "Exploring embodied intelligence, with a focus on VLA and world models."
+        "period": "Dec 2025 – Apr 2026",
+        "description": "Explored vision-language-action models and world models for robotics.",
+        "logo": "assets/logos/sensetime.webp"
       },
       {
         "title": "AI Solution Architect Intern",
         "company": "MiniMax",
         "location": "Beijing, China",
-        "period": "2025 Jun - 2025 Aug",
-        "description": "Delivered AI solutions for external enterprises using MiniMax TTS, LLMs, and Hailuo, the video generation model."
+        "period": "Jun – Aug 2025",
+        "description": "Built enterprise applications with speech synthesis, language models and Hailuo video generation.",
+        "logo": "assets/logos/minimax.webp"
       },
       {
         "title": "Data Science Intern",
         "company": "Lalamove",
         "location": "Shenzhen, Guangdong, China",
-        "period": "2024 Dec - 2025 May",
-        "description": "Worked on data analysis for AI outbound calling and driver price adjustment strategies."
+        "period": "Dec 2024 – May 2025",
+        "description": "Analyzed outbound calling data and driver pricing strategies.",
+        "logo": "assets/logos/lalamove.webp"
       }
-    ]
+    ],
+    "contactNote": "I’m happy to talk about robotics, decentralized learning, cryptography and quantum computing over coffee."
   },
   "products": [
     {
       "name": "Polymarket Oracle",
-      "tagline": "LLM-powered analysis built on top of Polymarket data",
-      "status": "Live",
-      "description": "Polymarket Oracle uses data from Polymarket to help an LLM analyze your questions and generate clearer, market-informed insights.",
+      "tagline": "Prediction markets",
+      "description": "Ask a question and see which prediction markets inform the answer. The app connects market prices to an LLM-generated analysis.",
       "url": "https://polymarket-oracle-6rxe.vercel.app/",
-      "repo": "",
-      "highlights": [
-        "Combines prediction market data with LLM-based reasoning",
-        "Helps users explore questions through market signals and structured analysis",
-        "Built as a public-facing product that can be accessed directly online"
+      "repo": "https://github.com/Tengfei-Ma13206/polymarket-oracle"
+    },
+    {
+      "name": "Qwen math post-training",
+      "tagline": "Open model weights",
+      "description": "SFT and GRPO checkpoints for the same Qwen2.5-0.5B math model, released for side-by-side experimentation.",
+      "links": [
+        {
+          "label": "SFT weights",
+          "url": "https://huggingface.co/tengfeima-ai/Qwen2.5-0.5B-Math-SFT-Concise"
+        },
+        {
+          "label": "GRPO weights",
+          "url": "https://huggingface.co/tengfeima-ai/Qwen2.5-0.5B-Math-GRPO-Concise"
+        }
       ]
     }
   ],
   "publications": {
-    "intro": "A concise selection of publications and research outputs from my Google Scholar profile.",
     "scholarProfileUrl": "https://scholar.google.com/citations?user=-mtM0J8AAAAJ",
-    "sourceNote": "This section is populated from my public Google Scholar profile and kept intentionally concise.",
     "items": [
       {
-        "title": "Beyond Centralized AI: Blockchain-Enabled Decentralized Learning",
-        "authors": "D Wang, T Ma, J Zhu, H Duan",
-        "venue": "Future Internet 18 (2), 98",
+        "id": "primesim",
+        "shortTitle": "PrimeSim",
+        "title": "PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations",
+        "authors": "Travis Davies, Wentao Ma, Lihao Guo, Tengfei Ma, Xiaowen Chang, Jiafeng Xu, Shilong Wang, Yiqi Deng, Shaowen He, Xiaoqi Li, Qian Zhu, Ran Cheng, Hao Dong",
+        "venue": "PrimeBot Research",
         "year": 2026,
-        "type": "Paper",
-        "abstract": "A concise overview of how blockchain can support decentralized learning systems beyond the standard centralized AI pipeline.",
-        "url": "https://scholar.google.com/scholar?q=Beyond+Centralized+AI%3A+Blockchain-Enabled+Decentralized+Learning"
+        "type": "Preprint",
+        "abstract": "Given a robot’s actions, PrimeSim predicts what happens next across three synchronized camera views. It was trained on 30,110 hours of demonstrations from 22 robot platforms.",
+        "url": "https://arxiv.org/abs/2611.04870",
+        "projectUrl": "https://qyrotech.github.io/PrimeSim-website/",
+        "codeUrl": "https://github.com/QyroTech/PrimeSim",
+        "weightsUrl": "https://huggingface.co/qiyuan-robot/PrimeSim",
+        "poster": "assets/media/primesim-studio.webp",
+        "video": "assets/media/primesim-studio.mp4",
+        "mediaLabel": "Three-view prediction",
+        "mediaDescription": "A PrimeSim-generated robot rollout from three synchronized camera views.",
+        "credit": "PrimeBot Research · PrimeSim"
       },
       {
-        "title": "Derelayl: Sustainable decentralized relay learning",
-        "authors": "H Duan, T Ma, Y Qin, R Zeng, W Cai, VCM Leung, X Hu",
+        "id": "prime-w0",
+        "shortTitle": "PRIME W0",
+        "title": "PRIME W0: Physical Priors from World Models for Embodied Manipulation",
+        "authors": "Huabin Peng, Fagang Jin, Yancong Wei, Tengfei Ma, Chuhang Liu, Chao Yu, Liqing Chen",
+        "venue": "Lumos Robotics",
+        "year": 2026,
+        "type": "Preprint",
+        "abstract": "PRIME W0 uses a world model to predict a visual subgoal. The policy combines that prediction with the robot’s recent observations to choose its next action.",
+        "url": "https://arxiv.org/abs/2610.39528",
+        "projectUrl": "https://lucasjinreal.github.io/PRIME-W0/",
+        "poster": "assets/media/prime-w0.webp",
+        "video": "assets/media/prime-w0.mp4",
+        "mediaLabel": "Real-robot demonstration",
+        "mediaDescription": "Two physical robot arms manipulate a cloth in a Lumos Robotics demonstration.",
+        "credit": "Lumos Robotics · PRIME W0"
+      },
+      {
+        "title": "Beyond Centralized AI: Blockchain-Enabled Decentralized Learning",
+        "authors": "Daren Wang, Tengfei Ma, Juntao Zhu, Haihan Duan",
+        "venue": "Future Internet",
+        "year": 2026,
+        "abstract": "I worked with Daren Wang on the review’s methodology, analysis and first draft.",
+        "url": "https://doi.org/10.3390/fi18020098"
+      },
+      {
+        "title": "DeRelayL: Sustainable Decentralized Relay Learning",
+        "authors": "Haihan Duan, Tengfei Ma, Yuyang Qin, Runhao Zeng, Wei Cai, Victor C. M. Leung, Xiping Hu",
         "venue": "IEEE Transactions on Mobile Computing",
         "year": 2025,
-        "type": "Paper",
-        "abstract": "This work studies a sustainable decentralized relay learning framework for more efficient and robust distributed intelligence.",
-        "url": "https://scholar.google.com/scholar?q=Derelayl%3A+Sustainable+decentralized+relay+learning"
+        "abstract": "A decentralized training system in which participants take turns improving a shared model.",
+        "url": "https://doi.org/10.1109/TMC.2025.3558544",
+        "codeUrl": "https://github.com/Tengfei-Ma13206/DeRelayL_Simulation"
       },
       {
-        "title": "Artemix: A community-boosting-based framework for airdrop hunter detection in the web3 community",
-        "authors": "Y Qin, T Ma, H Chen, H Duan",
-        "venue": "Blockchain 2 (2), 1-24",
+        "title": "ARTEMIX: A Community-Boosting-Based Framework for Airdrop Hunter Detection in the Web3 Community",
+        "authors": "Yuyang Qin, Tengfei Ma, Hongzhou Chen, Haihan Duan",
+        "venue": "Blockchain",
         "year": 2024,
-        "type": "Paper",
-        "abstract": "A framework for detecting airdrop hunters in Web3 communities by modeling community behavior and incentive-driven participation patterns.",
-        "url": "https://scholar.google.com/scholar?q=Artemix%3A+A+community-boosting-based+framework+for+airdrop+hunter+detection+in+the+web3+community"
+        "abstract": "Detecting airdrop hunters from transaction patterns and community structure.",
+        "url": "https://doi.org/10.55092/blockchain20240010"
       }
     ]
-  }
+  },
+  "hero": {
+    "publication": "prime-w0",
+    "poster": "assets/media/robot-hero.webp",
+    "alt": "Two robot grippers lift the corners of a white cloth above a green worktable.",
+    "caption": "PRIME W0",
+    "captionDetail": "Real-robot demonstration"
+  },
+  "videos": [
+    {
+      "title": "Nano-World-Model",
+      "topic": "Reading the code",
+      "description": "How robot actions enter a Transformer block, with a line-by-line look at additive action conditioning.",
+      "chineseTitle": "代码精读 · 动作如何注入 Transformer",
+      "url": "https://www.bilibili.com/video/BV1Qp7T6HE2T/"
+    },
+    {
+      "title": "DiT4DiT",
+      "topic": "Reading the paper",
+      "description": "How video and action models learn together, starting with the intuition behind flow matching.",
+      "chineseTitle": "论文讲解 · 从 Flow Matching 到视频动作模型",
+      "url": "https://www.bilibili.com/video/BV1sZ5g65ES4/"
+    }
+  ]
 }

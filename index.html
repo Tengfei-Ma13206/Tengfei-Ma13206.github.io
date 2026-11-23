@@ -1,125 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tengfei Ma</title>
-    <meta
-      name="description"
-      content="A refined personal website for Tengfei Ma featuring profile, products, and publications."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
-  <body>
-    <div class="page-shell">
-      <div class="ambient ambient-one"></div>
-      <div class="ambient ambient-two"></div>
-
-      <header class="site-header">
-        <a class="brand" href="#top">
-          <span class="brand-mark">TM</span>
-          <span class="brand-text">
-            <strong id="brand-name">Tengfei Ma</strong>
-            <span id="brand-domain">tengfei-ma13206.github.io</span>
-          </span>
-        </a>
-
-        <nav class="top-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#products">Products</a>
-          <a href="#publications">Publications</a>
-        </nav>
-      </header>
-
-      <main id="top">
-        <section id="about" class="hero-section section-card">
-          <div class="hero-grid">
-            <div class="hero-copy">
-              <h1 id="hero-name">Loading...</h1>
-              <p id="hero-role" class="hero-role"></p>
-              <p id="hero-summary" class="hero-summary"></p>
-
-              <div id="hero-facts" class="fact-row"></div>
-              <div id="hero-actions" class="action-row"></div>
-            </div>
-
-            <aside class="hero-aside">
-              <div id="hero-avatar" class="avatar-card">
-                <div class="avatar-fallback">TM</div>
-              </div>
-              <div id="hero-highlights" class="mini-panel"></div>
-            </aside>
-          </div>
-
-          <article class="content-panel profile-links-panel">
-            <div class="panel-heading">
-              <p class="eyebrow">Profiles and channels</p>
-              <h2>Find me online</h2>
-            </div>
-            <p id="profiles-intro" class="section-intro profile-section-intro"></p>
-            <div id="profile-links" class="profile-links"></div>
-          </article>
-
-          <div class="detail-grid">
-            <article class="content-panel">
-              <div class="panel-heading">
-                <p class="eyebrow">Resume overview</p>
-                <h2>Education</h2>
-              </div>
-              <div id="education-list" class="timeline-list"></div>
-            </article>
-
-            <article class="content-panel">
-              <div class="panel-heading">
-                <p class="eyebrow">Career journey</p>
-                <h2>Experience</h2>
-              </div>
-              <div id="experience-list" class="timeline-list"></div>
-            </article>
-          </div>
-
-        </section>
-
-        <section id="products" class="section-card">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Selected work</p>
-              <h2>Products</h2>
-            </div>
-            <p class="section-intro">
-              Product stories, positioning, and direct links to the things I have
-              built.
-            </p>
-          </div>
-          <div id="products-grid" class="card-grid"></div>
-        </section>
-
-        <section id="publications" class="section-card">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Research footprint</p>
-              <h2>Academic outcomes</h2>
-            </div>
-            <p id="publications-intro" class="section-intro"></p>
-          </div>
-
-          <div id="scholar-banner" class="scholar-banner"></div>
-          <div id="publications-list" class="publication-list"></div>
-        </section>
-
-      </main>
-
-      <footer class="site-footer">
-        <span id="footer-note">Hosted on GitHub Pages.</span>
-      </footer>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101715">
+  <title>Tengfei Ma · Robotics &amp; World Models</title>
+  <meta name="description" content="Tengfei Ma (马腾飞), MSc in AI at CUHK. Publications, experience and Chinese-language walkthroughs on robot world models and decentralized learning.">
+  <link rel="canonical" href="https://tengfeima.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tengfei Ma · Robotics &amp; World Models">
+  <meta property="og:description" content="Publications, robot demonstrations and paper walkthroughs by Tengfei Ma.">
+  <meta property="og:url" content="https://tengfeima.com/">
+  <meta property="og:image" content="https://tengfeima.com/assets/media/robot-hero.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/portrait.jpeg" type="image/jpeg">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter-latin.woff2" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner wrap">
+      <a class="wordmark" href="#top" aria-label="Tengfei Ma, home">tengfeima.com</a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#publications">Research</a><a href="#experience">Experience</a><a href="#videos">Videos</a><a href="#products">Projects</a><a href="#connect">Connect</a>
+      </nav>
+      <details class="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">
+        <a href="#publications">Research</a><a href="#experience">Experience</a><a href="#videos">Videos</a><a href="#products">Projects</a><a href="#connect">Connect</a>
+      </nav></details>
     </div>
+  </header>
+  <!-- portfolio:start -->
+  <div id="site-content" data-source="c0350bf3e7aa079ba4b3025e8ad7d904dea731502b8fcc201509d686cce13a1d">
+<main id="main" tabindex="-1">
+    <section class="hero" id="about" aria-labelledby="name">
+    <div class="hero-photo"><img src="assets/media/robot-hero.webp" width="1280" height="720" alt="Two robot grippers lift the corners of a white cloth above a green worktable." fetchpriority="high"></div>
+    <div class="hero-inner wrap">
+      <div class="identity">
+        <div class="signature"><img src="assets/portrait.jpeg" width="48" height="48" alt=""><span lang="zh-Hans">马腾飞</span></div>
+        <h1 id="name">Tengfei Ma</h1>
+        <p class="hero-intro">I study how robots predict the outcome of their actions. I’m an MSc student in Artificial Intelligence at CUHK and a world model intern at PrimeBot.</p>
+        <div class="hero-actions"><a class="button light" href="#publications">Explore research</a><a class="hero-contact" href="#connect">Get in touch</a></div>
+      </div>
+      <a class="hero-watch" href="assets/media/prime-w0.mp4"
+    data-film data-title="PRIME W0" data-credit="Lumos Robotics · PRIME W0"
+    data-project="https://lucasjinreal.github.io/PRIME-W0/" data-poster="assets/media/robot-hero.webp"
+    aria-label="Play PRIME W0 · Real-robot demonstration"><span class="play-icon" aria-hidden="true"></span><span><b>PRIME W0</b><small>Real-robot demonstration</small></span></a>
+    </div>
+  </section>
+    <section class="section wrap research" id="publications" aria-labelledby="research-title">
+    <div class="section-head"><h2 id="research-title">Selected publications</h2>
+      <a href="https://scholar.google.com/citations?user=-mtM0J8AAAAJ" target="_blank" rel="noopener noreferrer" class="text-link">Google Scholar</a></div>
+    <div class="features"><article class="feature" id="primesim">
+    <a class="feature-media primesim" href="assets/media/primesim-studio.mp4"
+    data-film data-title="PrimeSim" data-credit="PrimeBot Research · PrimeSim"
+    data-project="https://qyrotech.github.io/PrimeSim-website/" data-poster="assets/media/primesim-studio.webp"
+    aria-label="Play PrimeSim · Three-view prediction"><img src="assets/media/primesim-studio.webp" width="768" height="432" loading="lazy" alt="A PrimeSim-generated robot rollout from three synchronized camera views.">
+    <span class="media-control"><span class="play-icon" aria-hidden="true"></span><span>Three-view prediction</span></span></a>
+    <div class="feature-meta"><span>PrimeBot Research</span><span>2026 · Preprint</span></div>
+    <h3>PrimeSim</h3>
+    <p class="feature-title">A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations</p>
+    <p class="feature-abstract">Given a robot’s actions, PrimeSim predicts what happens next across three synchronized camera views. It was trained on 30,110 hours of demonstrations from 22 robot platforms.</p>
+    <details class="authors"><summary>Authors</summary><p>Travis Davies, Wentao Ma, Lihao Guo, <strong>Tengfei Ma</strong>, Xiaowen Chang, Jiafeng Xu, Shilong Wang, Yiqi Deng, Shaowen He, Xiaoqi Li, Qian Zhu, Ran Cheng, Hao Dong</p></details>
+    <div class="resource-links"><a href="https://arxiv.org/abs/2611.04870" target="_blank" rel="noopener noreferrer" >Paper</a><a href="https://qyrotech.github.io/PrimeSim-website/" target="_blank" rel="noopener noreferrer" >Project</a><a href="https://github.com/QyroTech/PrimeSim" target="_blank" rel="noopener noreferrer" >Code</a><a href="https://huggingface.co/qiyuan-robot/PrimeSim" target="_blank" rel="noopener noreferrer" >Weights</a></div>
+  </article>
+<article class="feature" id="prime-w0">
+    <a class="feature-media prime-w0" href="assets/media/prime-w0.mp4"
+    data-film data-title="PRIME W0" data-credit="Lumos Robotics · PRIME W0"
+    data-project="https://lucasjinreal.github.io/PRIME-W0/" data-poster="assets/media/prime-w0.webp"
+    aria-label="Play PRIME W0 · Real-robot demonstration"><img src="assets/media/prime-w0.webp" width="768" height="432" loading="lazy" alt="Two physical robot arms manipulate a cloth in a Lumos Robotics demonstration.">
+    <span class="media-control"><span class="play-icon" aria-hidden="true"></span><span>Real-robot demonstration</span></span></a>
+    <div class="feature-meta"><span>Lumos Robotics</span><span>2026 · Preprint</span></div>
+    <h3>PRIME W0</h3>
+    <p class="feature-title">Physical Priors from World Models for Embodied Manipulation</p>
+    <p class="feature-abstract">PRIME W0 uses a world model to predict a visual subgoal. The policy combines that prediction with the robot’s recent observations to choose its next action.</p>
+    <details class="authors"><summary>Authors</summary><p>Huabin Peng, Fagang Jin, Yancong Wei, <strong>Tengfei Ma</strong>, Chuhang Liu, Chao Yu, Liqing Chen</p></details>
+    <div class="resource-links"><a href="https://arxiv.org/abs/2610.39528" target="_blank" rel="noopener noreferrer" >Paper</a><a href="https://lucasjinreal.github.io/PRIME-W0/" target="_blank" rel="noopener noreferrer" >Project</a></div>
+  </article></div>
+    <div class="archive"><article class="archive-item">
+      <div class="year">2026</div><div>
+        <div class="journal">Future Internet</div><h3><a href="https://doi.org/10.3390/fi18020098" target="_blank" rel="noopener noreferrer" >Beyond Centralized AI: Blockchain-Enabled Decentralized Learning</a></h3>
+        <p class="byline">Daren Wang, <strong>Tengfei Ma</strong>, Juntao Zhu, Haihan Duan</p>
+        <p class="archive-description">I worked with Daren Wang on the review’s methodology, analysis and first draft.</p>
 
-    <script type="module" src="assets/app.js"></script>
-  </body>
+      </div></article>
+<article class="archive-item">
+      <div class="year">2025</div><div>
+        <div class="journal">IEEE Transactions on Mobile Computing</div><h3><a href="https://doi.org/10.1109/TMC.2025.3558544" target="_blank" rel="noopener noreferrer" >DeRelayL: Sustainable Decentralized Relay Learning</a></h3>
+        <p class="byline">Haihan Duan, <strong>Tengfei Ma</strong>, Yuyang Qin, Runhao Zeng, Wei Cai, Victor C. M. Leung, Xiping Hu</p>
+        <p class="archive-description">A decentralized training system in which participants take turns improving a shared model.</p>
+        <div class="resource-links"><a href="https://github.com/Tengfei-Ma13206/DeRelayL_Simulation" target="_blank" rel="noopener noreferrer" >Simulation code</a></div>
+      </div></article>
+<article class="archive-item">
+      <div class="year">2024</div><div>
+        <div class="journal">Blockchain</div><h3><a href="https://doi.org/10.55092/blockchain20240010" target="_blank" rel="noopener noreferrer" >ARTEMIX: A Community-Boosting-Based Framework for Airdrop Hunter Detection in the Web3 Community</a></h3>
+        <p class="byline">Yuyang Qin, <strong>Tengfei Ma</strong>, Hongzhou Chen, Haihan Duan</p>
+        <p class="archive-description">Detecting airdrop hunters from transaction patterns and community structure.</p>
+
+      </div></article></div>
+  </section>
+    <section class="career" id="experience" aria-labelledby="experience-title"><div class="wrap">
+    <div class="career-block"><h2 id="experience-title">Experience</h2><ul class="timeline"><li>
+      <div class="org-mark"><img src="assets/logos/primebot.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>PrimeBot <span class="local-name" lang="zh-Hans">启元机器人</span></h3><span class="date">Jun 2026 – present</span></div>
+      <div class="role">Machine Learning Engineer Intern, World Models</div>
+      <p>Studied how to condition robot world models on actions. Co-authored PrimeSim, a simulator that predicts several camera views of a manipulation task.</p>
+      <a class="output-link" href="#primesim">Publication · PrimeSim</a>
+      </div></li>
+<li>
+      <div class="org-mark"><img src="assets/logos/lumos.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>Lumos Robotics <span class="local-name" lang="zh-Hans">鹿明机器人</span></h3><span class="date">Apr – Jun 2026</span></div>
+      <div class="role">World Model Algorithm Intern</div>
+      <p>Worked on world models for robot manipulation. Co-authored PRIME W0, which uses predicted visual subgoals to guide a robot policy.</p>
+      <a class="output-link" href="#prime-w0">Publication · PRIME W0</a>
+      </div></li>
+<li>
+      <div class="org-mark"><img src="assets/logos/sensetime.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>SenseTime</h3><span class="date">Dec 2025 – Apr 2026</span></div>
+      <div class="role">Machine Learning Engineer Intern<span class="place"> · Shanghai, China</span></div>
+      <p>Explored vision-language-action models and world models for robotics.</p>
+
+      </div></li>
+<li>
+      <div class="org-mark"><img src="assets/logos/minimax.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>MiniMax</h3><span class="date">Jun – Aug 2025</span></div>
+      <div class="role">AI Solution Architect Intern<span class="place"> · Beijing, China</span></div>
+      <p>Built enterprise applications with speech synthesis, language models and Hailuo video generation.</p>
+
+      </div></li>
+<li>
+      <div class="org-mark"><img src="assets/logos/lalamove.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>Lalamove</h3><span class="date">Dec 2024 – May 2025</span></div>
+      <div class="role">Data Science Intern<span class="place"> · Shenzhen, Guangdong, China</span></div>
+      <p>Analyzed outbound calling data and driver pricing strategies.</p>
+
+      </div></li></ul></div>
+    <div class="career-block education"><h2>Education</h2><ul class="timeline"><li>
+      <div class="org-mark"><img src="assets/logos/cuhk.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>The Chinese University of Hong Kong</h3><span class="date">Sep 2025 – Mar 2027 (expected)</span></div>
+      <div class="role">Master of Science in Artificial Intelligence</div>
+
+
+      </div></li>
+<li>
+      <div class="org-mark"><img src="assets/logos/cuhk-shenzhen.webp" width="46" height="46" loading="lazy" alt=""></div>
+      <div class="timeline-copy"><div class="org-row"><h3>The Chinese University of Hong Kong, Shenzhen</h3><span class="date">Sep 2021 – Jul 2025</span></div>
+      <div class="role">Bachelor of Engineering in Electronic Information Engineering</div>
+
+
+      </div></li></ul></div>
+  </div></section>
+    <section class="videos" id="videos" aria-labelledby="videos-title"><div class="wrap video-layout">
+    <div class="video-intro"><h2 id="videos-title">Paper<br class="wide-break"> walkthroughs</h2>
+    <p>I share Chinese-language videos on the ideas and code behind robotics papers.</p>
+    <a href="https://space.bilibili.com/287391327" target="_blank" rel="noopener noreferrer" class="channel-link" lang="zh-Hans">马腾飞每天更新 · Bilibili</a></div>
+    <div class="video-list"><a class="video-entry" href="https://www.bilibili.com/video/BV1Qp7T6HE2T/" target="_blank" rel="noopener noreferrer">
+      <span><span class="video-topic">Reading the code</span><strong>Nano-World-Model</strong><span class="video-cn" lang="zh-Hans">代码精读 · 动作如何注入 Transformer</span><span class="video-description">How robot actions enter a Transformer block, with a line-by-line look at additive action conditioning.</span></span>
+      <span class="play-icon" aria-hidden="true"></span></a>
+<a class="video-entry" href="https://www.bilibili.com/video/BV1sZ5g65ES4/" target="_blank" rel="noopener noreferrer">
+      <span><span class="video-topic">Reading the paper</span><strong>DiT4DiT</strong><span class="video-cn" lang="zh-Hans">论文讲解 · 从 Flow Matching 到视频动作模型</span><span class="video-description">How video and action models learn together, starting with the intuition behind flow matching.</span></span>
+      <span class="play-icon" aria-hidden="true"></span></a></div>
+  </div></section>
+    <section class="section wrap projects" id="products" aria-labelledby="projects-title">
+    <h2 id="projects-title">Projects</h2><div class="project-list">
+    <article><div class="journal">Prediction markets</div><h3>Polymarket Oracle</h3>
+    <p>Ask a question and see which prediction markets inform the answer. The app connects market prices to an LLM-generated analysis.</p><div class="resource-links"><a href="https://polymarket-oracle-6rxe.vercel.app/" target="_blank" rel="noopener noreferrer" >Open app</a><a href="https://github.com/Tengfei-Ma13206/polymarket-oracle" target="_blank" rel="noopener noreferrer" >Source code</a></div></article>
+<article><div class="journal">Open model weights</div><h3>Qwen math post-training</h3>
+    <p>SFT and GRPO checkpoints for the same Qwen2.5-0.5B math model, released for side-by-side experimentation.</p><div class="resource-links"><a href="https://huggingface.co/tengfeima-ai/Qwen2.5-0.5B-Math-SFT-Concise" target="_blank" rel="noopener noreferrer" >SFT weights</a><a href="https://huggingface.co/tengfeima-ai/Qwen2.5-0.5B-Math-GRPO-Concise" target="_blank" rel="noopener noreferrer" >GRPO weights</a></div></article>
+    </div></section>
+  </main>
+  <footer class="contact" id="connect" aria-labelledby="connect-title"><div class="wrap">
+    <div class="contact-top"><div><h2 id="connect-title">Get in touch</h2><p>I’m happy to talk about robotics, decentralized learning, cryptography and quantum computing over coffee.</p></div>
+    <div class="contact-address"><a href="mailto:backkom2021@qq.com">backkom2021@qq.com</a><span>ENS · tengfeima.eth</span></div></div>
+    <p class="alias">On Bilibili, RedNote, Douyin, WeChat Official Account and WeChat Channels, you can find me as 马腾飞每天更新.</p><div class="channel-grid"><div><h3>Research &amp; work</h3>
+      <ul><li><a href="https://scholar.google.com/citations?user=-mtM0J8AAAAJ" target="_blank" rel="noopener noreferrer" >Google Scholar</a></li><li><a href="https://huggingface.co/tengfeima-ai" target="_blank" rel="noopener noreferrer" >Hugging Face</a></li><li><a href="https://github.com/Tengfei-Ma13206" target="_blank" rel="noopener noreferrer" >GitHub</a></li><li><a href="https://www.linkedin.com/in/tengfeima13206/" target="_blank" rel="noopener noreferrer" >LinkedIn</a></li></ul></div>
+<div><h3>Chinese platforms</h3>
+      <ul><li><a href="https://space.bilibili.com/287391327" target="_blank" rel="noopener noreferrer" >Bilibili</a></li><li><a href="https://www.xiaohongshu.com/user/profile/60e475d40000000001003b09" target="_blank" rel="noopener noreferrer" >RedNote</a></li><li><span>WeChat Official Account</span><small lang="zh-Hans">马腾飞每天更新</small></li><li><span>WeChat Channels</span><small lang="zh-Hans">马腾飞每天更新</small></li><li><span>Douyin</span><small lang="zh-Hans">马腾飞每天更新</small></li><li><a href="https://weibo.com/tengfeima13206" target="_blank" rel="noopener noreferrer" >Weibo</a></li></ul></div>
+<div><h3>Other channels</h3>
+      <ul><li><a href="https://x.com/TengfeiMa13206" target="_blank" rel="noopener noreferrer" >X</a></li><li><a href="https://www.youtube.com/@tengfeima13206" target="_blank" rel="noopener noreferrer" >YouTube</a></li><li><a href="https://www.instagram.com/tengfeima13206/" target="_blank" rel="noopener noreferrer" >Instagram</a></li><li><a href="https://www.tiktok.com/@tengfeima13206" target="_blank" rel="noopener noreferrer" >TikTok</a></li></ul></div></div>
+    <div class="colophon"><a href="#top">tengfeima.com</a><a href="#top">Back to top</a></div>
+  </div></footer>
+  </div>
+  <!-- portfolio:end -->
+  <dialog class="film" id="film" aria-labelledby="film-title">
+    <div class="film-head"><h2 id="film-title">Demonstration</h2><form method="dialog"><button class="film-close" autofocus>Close</button></form></div>
+    <video controls playsinline preload="none" aria-label="Robotics research demonstration"></video>
+    <div class="film-foot"><span id="film-credit"></span><a id="film-project" target="_blank" rel="noopener noreferrer">Full project</a></div>
+  </dialog>
+  <script type="module" src="assets/app.js"></script>
+</body>
 </html>
