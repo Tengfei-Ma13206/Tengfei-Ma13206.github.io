@@ -2,12 +2,13 @@
   "site": {
     "name": "Tengfei Ma",
     "domain": "tengfeima.com",
-    "title": "Tengfei Ma · Robotics & World Models",
+    "title": "Tengfei Ma · 马腾飞",
     "avatar": "assets/portrait.jpeg",
     "chineseName": "马腾飞"
   },
   "profile": {
-    "summary": "I study how robots predict the outcome of their actions. I’m an MSc student in Artificial Intelligence at CUHK and a world model intern at PrimeBot.",
+    "summary": "I’m an AI master’s student at the Chinese University of Hong Kong. I study how robots anticipate the effects of their own actions.",
+    "biography": "My earlier work was in decentralized learning. Today I work on world models at PrimeBot. On Bilibili, I share Chinese-language walkthroughs of the robotics papers and code I’m reading.",
     "email": "backkom2021@qq.com",
     "ens": "tengfeima.eth",
     "platformAliasNote": "On Bilibili, RedNote, Douyin, WeChat Official Account and WeChat Channels, you can find me as 马腾飞每天更新.",
@@ -107,7 +108,7 @@
         "logo": "assets/logos/primebot.webp",
         "title": "Machine Learning Engineer Intern, World Models",
         "period": "Jun 2026 – present",
-        "description": "Studied how to condition robot world models on actions. Co-authored PrimeSim, a simulator that predicts several camera views of a manipulation task.",
+        "description": "I studied how to condition robot world models on actions and co-authored PrimeSim.",
         "publication": "primesim"
       },
       {
@@ -116,7 +117,7 @@
         "logo": "assets/logos/lumos.webp",
         "title": "World Model Algorithm Intern",
         "period": "Apr – Jun 2026",
-        "description": "Worked on world models for robot manipulation. Co-authored PRIME W0, which uses predicted visual subgoals to guide a robot policy.",
+        "description": "I worked on world models for robot manipulation and co-authored PRIME W0.",
         "publication": "prime-w0"
       },
       {
@@ -235,13 +236,6 @@
         "url": "https://doi.org/10.55092/blockchain20240010"
       }
     ]
-  },
-  "hero": {
-    "publication": "prime-w0",
-    "poster": "assets/media/robot-hero.webp",
-    "alt": "Two robot grippers lift the corners of a white cloth above a green worktable.",
-    "caption": "PRIME W0",
-    "captionDetail": "Real-robot demonstration"
   },
   "videos": [
     {

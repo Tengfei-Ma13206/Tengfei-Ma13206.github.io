@@ -4,6 +4,14 @@ const film = document.querySelector("#film");
 const video = film.querySelector("video");
 let filmTrigger;
 
+function revealWork(hash, scroll = false) {
+  const target = hash && document.getElementById(hash.slice(1));
+  const group = target && target.closest(".work-group");
+  if (!group || group.open) return;
+  group.open = true;
+  if (scroll) target.scrollIntoView({ block: "start", behavior: "instant" });
+}
+
 async function refreshContent() {
   try {
     const response = await fetch("data/site.json", { cache: "no-cache" });
@@ -17,6 +25,7 @@ async function refreshContent() {
     const data = JSON.parse(source);
     const { renderPortfolio } = await import("./content.mjs");
     content.innerHTML = renderPortfolio(data);
+    revealWork(location.hash, true);
     document.title = data.site.title;
     document.querySelector(".wordmark").textContent = data.site.domain;
   } catch (error) {
@@ -27,9 +36,11 @@ async function refreshContent() {
 
 document.addEventListener("click", event => {
   if (menu.open && (event.target.closest("nav a") || !menu.contains(event.target))) menu.open = false;
+  if (event.defaultPrevented || event.ctrlKey || event.shiftKey || event.altKey || event.metaKey || event.button !== 0) return;
+  const internalLink = event.target.closest('a[href^="#"]');
+  if (internalLink) revealWork(internalLink.hash);
   const trigger = event.target.closest("a[data-film]");
-  if (!trigger || typeof film.showModal !== "function" || event.defaultPrevented ||
-      event.ctrlKey || event.shiftKey || event.altKey || event.metaKey || event.button !== 0) return;
+  if (!trigger || typeof film.showModal !== "function") return;
   event.preventDefault();
   filmTrigger = trigger;
   const { title, credit, project, poster } = trigger.dataset;
@@ -42,6 +53,7 @@ document.addEventListener("click", event => {
   film.showModal();
   video.play().catch(() => { /* Native controls remain usable when playback requires a second gesture. */ });
 });
+window.addEventListener("hashchange", () => revealWork(location.hash, true));
 
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && menu.open) {
@@ -61,4 +73,5 @@ film.addEventListener("close", () => {
   video.load();
   filmTrigger?.focus({ preventScroll: true });
 });
+revealWork(location.hash, true);
 refreshContent();
